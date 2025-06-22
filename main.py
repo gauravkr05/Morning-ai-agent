@@ -1,5 +1,5 @@
-from tools.weather import get_weather_data
-from tools.aqi import get_aqi_data
+from tools.weather import get_weather_summary
+from tools.aqi import get_aqi
 from tools.calendar import get_today_schedule
 from tools.excel import get_activities_from_excel
 from tools.llm import call_llm
