@@ -16,6 +16,10 @@ def send_email(subject, content):
     if not all([email_address, email_password]):
         raise ValueError("EMAIL_ADDRESS and EMAIL_PASSWORD must be set in your .env file.")
 
+    # Type assertion - we know these are not None after the validation above
+    assert email_address is not None
+    assert email_password is not None
+
     msg = EmailMessage()
     msg["Subject"] = subject
     msg["From"] = email_address

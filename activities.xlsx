@@ -1,0 +1,9 @@
+| Activity    | Duration (min) | Distance (km) | Type    |
+| ----------- | -------------- | ------------- | ------- |
+| Running     | 30             | 5             | Outdoor |
+| Swimming    | 45             | 1             | Indoor  |
+| Yoga        | 40             | 0             | Indoor  |
+| Cycling     | 60             | 10            | Outdoor |
+| Gym Workout | 50             | 0             | Indoor  |
+| Hiking      | 90             | 8             | Outdoor |
+| Badminton   | 30             | 0.5           | Indoor  |

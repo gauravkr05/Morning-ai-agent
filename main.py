@@ -9,8 +9,8 @@ def main():
     print("🔄 Collecting data from tools...")
 
     # Get inputs from tools
-    weather_data = get_weather_data()
-    aqi_value = get_aqi_data()
+    weather_data = get_weather_summary()
+    aqi_value = get_aqi()
     schedule = get_today_schedule()
     activities = get_activities_from_excel()
 

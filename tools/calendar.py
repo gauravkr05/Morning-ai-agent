@@ -15,6 +15,14 @@ def get_today_schedule():
     creds_path = os.getenv("GOOGLE_CALENDAR_CREDENTIALS")
     token_path = os.getenv("GOOGLE_CALENDAR_TOKEN")
 
+    # Validate environment variables
+    if not creds_path or not token_path:
+        raise ValueError("GOOGLE_CALENDAR_CREDENTIALS and GOOGLE_CALENDAR_TOKEN must be set in your .env file.")
+
+    # Type assertion - we know these are not None after validation
+    assert creds_path is not None
+    assert token_path is not None
+
     # Load token if it exists
     if os.path.exists(token_path):
         creds = Credentials.from_authorized_user_file(token_path, SCOPES)
