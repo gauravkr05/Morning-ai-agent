@@ -1,6 +1,6 @@
 # Morning AI
 
-Morning AI is an intelligent assistant that helps you start your day with the best possible activity, tailored to your environment and schedule. By integrating real-time weather and air quality data, your Google Calendar, and a customizable list of activities, the system uses a Large Language Model (LLM) to recommend the most suitable morning activity for you. The recommendation is then delivered directly to your email inbox.
+Morning AI is a self made intelligent ai agent that helps you start your day with the best possible activity, tailored to your environment and schedule. By integrating real-time weather and air quality data, your Google Calendar, and a customizable list of activities, the system uses a Large Language Model (LLM) to recommend the most suitable morning activity for you. The recommendation is then delivered directly to your email inbox.
 
 ## How It Works
 
